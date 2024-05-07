@@ -1,29 +1,22 @@
-body {
-    background-color: rgb(243, 246, 248);
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
 }
 
-
-.flag {
-    width: 900px;
-    height: 600px;
-    background-color: #fff;
-    margin: 100px auto;
-    position: relative;
+/* Write your CSS below, don't change the rules above. */
+p {color:red;}
+.note{
+  font-size: 30px;
 }
-
-.flag > .baris-satu {
-    position: absolute;
-    width: 90px;
-    height: 600px;
-    background-color: #003580;
-    left: 220px;
-    z-index: 1;
+#id-selector-demo
+{
+  color:green;
 }
-
-.flag > .baris-dua {
-    position: absolute;
-    width: 900px;
-    height: 90px;
-    background-color: #003580;
-    top: 40%;
+li[value="4"]{
+  color:blue;
+  font-size: 20pt;
+}
+*{
+  text-align: center;
 }
